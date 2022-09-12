@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    position: fixed;
+    top: 0;
+    width: 1200px;
+}
+
+nav ul li{
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 10px;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+body{
+    width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+div{
+    padding: 25px;
+}
+
+section{
+    padding: 25px;
+}
+
+.div_uno{
+    background-image: url(../imagenes/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div_dos{
+    background-color: ghostwhite;
+}
+
+.div_tres{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.bio {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    justify-content: space-evenly;
+}
+
+.player{
+    margin: 5px;
+}
+
+.perfiles{
+    background-color: ghostwhite;
+}
+
+footer{
+    background-color: black;
+    height: 10px;
+}
+
+/* IMAGENES */
+
+#dlc_logo{
+    height: 100px;
+    width: auto;
+    display: flex;
+    margin: auto;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.foto_perfil{
+    height: auto;
+    width: 250px;
+}
+
+.redes{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+/* LISTAS */
+
+ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.lista_redes{
+    display: flex;
+    justify-content:center;
+}
+
+
+/* TEXTO */
+
+h1, h2, h3, li{
+    color: white;
+    font-family: "roboto", sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.h3_fondo_blanco{
+    color: black;
+}
+
+
+
+p{
+    width: 50%;
+}
